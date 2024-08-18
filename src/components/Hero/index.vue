@@ -7,7 +7,7 @@ import MobileBenefit from "./MobileBenefit.vue";
 <template>
   <section
     id="hero"
-    class="flex justify-center items-center flex-col py-10 md:py-20 gap-20 md:gap-40">
+    class="flex justify-center items-center flex-col py-10 md:py-20 gap-20 md:gap-40 bg-dark text-white">
     <div class="flex justify-center items-center flex-col">
       <p class="bg-white/10 py-2 px-3 rounded-full text-xs mb-2">
         NUMBER ONE CREATIVE DIGITAL AGENCY

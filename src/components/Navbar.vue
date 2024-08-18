@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { navbar } from "@/constant";
 import { Icon } from "@iconify/vue";
 import {
   DropdownMenu,
@@ -10,17 +11,16 @@ import {
 
 <template>
   <header
-    class="flex justify-between items-center md:py-3 p-6 md:px-20 bg-transparent sticky top-0 right-0 left-0 bg-dark">
+    class="flex justify-between items-center md:py-3 p-6 md:px-20 bg-dark text-white sticky top-0 right-0 left-0 z-50">
     <div class="flex justify-center items-center gap-2">
       <img src="/logo.svg" alt="Agenone" width="52" height="52" />
       <p class="font-bold italic text-lg">Agenone</p>
     </div>
 
     <ul class="hidden md:flex justify-center items-center gap-10">
-      <li>Home</li>
-      <li>Services</li>
-      <li>Project</li>
-      <li>About Us</li>
+      <li v-for="(nav, i) in navbar" :key="i">
+        <a :href="nav.href">{{ nav.title }}</a>
+      </li>
     </ul>
 
     <button
@@ -33,18 +33,9 @@ import {
         <Icon icon="solar:hamburger-menu-broken" width="32" />
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent class="bg-primary mr-5 py-5 px-2">
-        <DropdownMenuItem>
-          <a href="#">Home</a>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <a href="#services">Services</a>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <a href="#project">Project</a>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <a href="#about">About Us</a>
+      <DropdownMenuContent class="bg-primary mr-5 py-5 px-2 text-white">
+        <DropdownMenuItem v-for="(nav, i) in navbar" :key="i">
+          <a :href="nav.href">{{ nav.title }}</a>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

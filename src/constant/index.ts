@@ -1,18 +1,18 @@
 export const benefits = [
   {
-    imgUrl: "/expand.svg",
+    imgUrl: "/benefits/expand.svg",
     title: "Expanding The Market",
   },
   {
-    imgUrl: "/money.svg",
+    imgUrl: "/benefits/money.svg",
     title: "Cost-Effective",
   },
   {
-    imgUrl: "/star.svg",
+    imgUrl: "/benefits/star.svg",
     title: "More Professional",
   },
   {
-    imgUrl: "/client.svg",
+    imgUrl: "/benefits/client.svg",
     title: "Attract Client",
   },
 ];
@@ -44,7 +44,7 @@ export const services = [
   },
 ];
 
-export const navbar = [
+export const menu = [
   {
     title: "Home",
     href: "#",
@@ -79,5 +79,83 @@ export const achievements = [
   {
     total: "10+",
     title: "Awards Achieved",
+  },
+];
+
+export const companys = [
+  {
+    name: "Adobe",
+    imgUrl: "/company/adobe.svg",
+  },
+  {
+    name: "AirBnB",
+    imgUrl: "/company/airbnb.svg",
+  },
+  {
+    name: "Google",
+    imgUrl: "/company/google.svg",
+  },
+  {
+    name: "Microsoft",
+    imgUrl: "/company/microsoft.svg",
+  },
+  {
+    name: "Netflix",
+    imgUrl: "/company/netflix.svg",
+  },
+  {
+    name: "Slack",
+    imgUrl: "/company/slack.svg",
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum itaque, eligendi officia possimus sunt minima quasi fugiat et, laudantium fuga? Quis, pariatur rem? Ut eveniet maiores error labore doloribus! Et eum molestiae sapiente modi explicabo deleniti? Quibusdam asperiores explicabo cupiditate odit fuga alias non sapiente, ad tempore quam autem.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum itaque, eligendi officia possimus sunt minima quasi fugiat et, laudantium fuga? Quis, pariatur rem? Ut eveniet maiores error labore doloribus! Et eum molestiae sapiente modi explicabo deleniti? Quibusdam asperiores explicabo cupiditate odit fuga alias non sapiente, ad tempore quam autem.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas excepturi doloribus porro numquam obcaecati nemo reiciendis facilis totam possimus quidem.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto nemo itaque illo quas amet neque provident qui! Dolorum cumque nobis, odio nostrum sapiente sequi beatae excepturi obcaecati distinctio exercitationem.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum itaque, eligendi officia possimus sunt minima quasi fugiat et, laudantium fuga? Quis, pariatur rem? Ut eveniet maiores error labore doloribus! Et eum molestiae sapiente modi explicabo deleniti? Quibusdam asperiores explicabo cupiditate odit fuga alias non sapiente, ad tempore quam autem.",
+    imgUrl: "/user.png",
+  },
+  {
+    name: "Clara Insomnia",
+    job: "Occupation",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    imgUrl: "/user.png",
   },
 ];

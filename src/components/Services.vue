@@ -9,7 +9,7 @@ import {
 </script>
 
 <template>
-  <section class="bg-white px-3 md:px-40 py-20">
+  <section id="services" class="bg-white px-3 md:px-40 py-20">
     <h1 class="text-center text-3xl md:text-5xl font-bold pb-20">
       The Services We Offer
       <span class="text-transparent bg-clip-text bg-primary">For You</span>

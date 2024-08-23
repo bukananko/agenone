@@ -3,7 +3,9 @@ import { achievements } from "@/constant";
 </script>
 
 <template>
-  <section class="md:px-40 px-3 py-20 bg-primary-500/15 space-y-20 relative">
+  <section
+    id="about"
+    class="md:px-40 px-3 py-20 bg-primary-500/15 space-y-20 relative">
     <h1 class="text-3xl md:text-5xl font-semibold">
       We are passionate about helping businesses grow and succeed in the digital
       age. We take pride in our work and strive to exceed your expectations
@@ -11,11 +13,11 @@ import { achievements } from "@/constant";
     </h1>
 
     <img
-      src="/circle.svg"
+      src="/achievement/circle.svg"
       alt="Ornament"
       class="absolute -top-10 -left-10 md:left-24" />
     <img
-      src="/vectorline.svg"
+      src="/achievement/vectorline.svg"
       alt="Ornament"
       class="absolute max-md:top-44 md:bottom-0 right-0 max-md:left-0" />
 

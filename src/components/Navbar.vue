@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { navbar } from "@/constant";
+import { menu } from "@/constant";
 import { Icon } from "@iconify/vue";
 import {
   DropdownMenu,
@@ -18,7 +18,7 @@ import {
     </div>
 
     <ul class="hidden md:flex justify-center items-center gap-10">
-      <li v-for="(nav, i) in navbar" :key="i">
+      <li v-for="(nav, i) in menu" :key="i">
         <a :href="nav.href">{{ nav.title }}</a>
       </li>
     </ul>
@@ -34,7 +34,7 @@ import {
       </DropdownMenuTrigger>
 
       <DropdownMenuContent class="bg-primary mr-5 py-5 px-2 text-white">
-        <DropdownMenuItem v-for="(nav, i) in navbar" :key="i">
+        <DropdownMenuItem v-for="(nav, i) in menu" :key="i">
           <a :href="nav.href">{{ nav.title }}</a>
         </DropdownMenuItem>
       </DropdownMenuContent>

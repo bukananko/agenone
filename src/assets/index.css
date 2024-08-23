@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   #hero {
     background-image: url("/ornament.png");
     @apply bg-cover;
+  }
+
+  #project {
+    background-image: url("/ornament2.png");
+    @apply bg-cover overflow-hidden;
   }
 
   li:hover {

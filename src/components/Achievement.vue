@@ -19,17 +19,17 @@ import { achievements } from "@/constant";
     <img
       src="/achievement/vectorline.svg"
       alt="Ornament"
-      class="absolute max-md:top-44 md:bottom-0 right-0 max-md:left-0" />
+      class="absolute max-md:top-44 md:bottom-0 right-0 max-md:left-0 z-[-1]" />
 
-    <ul
-      class="md:flex max-md:space-y-10 justify-between p-10 bg-primary rounded-2xl text-white">
-      <li
+    <div
+      class="md:flex max-md:space-y-10 justify-between p-10 bg-primary rounded-2xl text-white z-40">
+      <div
         v-for="(achievement, i) in achievements"
         :key="i"
         class="text-center space-y-3">
         <h5 class="text-6xl font-bold">{{ achievement.total }}</h5>
         <p class="text-xl font-semibold">{{ achievement.title }}</p>
-      </li>
-    </ul>
+      </div>
+    </div>
   </section>
 </template>

@@ -14,7 +14,7 @@
 
   #project {
     background-image: url("/ornament2.png");
-    @apply bg-cover overflow-hidden;
+    @apply bg-fixed;
   }
 
   li:hover {

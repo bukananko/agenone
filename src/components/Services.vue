@@ -32,14 +32,7 @@ import {
           </div>
         </AccordionTrigger>
         <AccordionContent class="space-y-5">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rerum
-            vero eius fuga sunt facere sequi. Ipsam, reiciendis fugit aliquid at
-            porro earum iure unde! Velit iure molestiae dolores expedita
-            commodi, totam provident, hic, fugit delectus excepturi voluptate
-            similique esse quam inventore facere architecto enim explicabo
-            laboriosam laudantium mollitia atque!
-          </p>
+          <p>{{ service.desc }}</p>
           <img :src="service.imgUrl" :alt="service.title" />
         </AccordionContent>
       </AccordionItem>

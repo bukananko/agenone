@@ -1,12 +1,15 @@
 <script setup lang="ts">
 import { menu } from "@/constant";
 import { Icon } from "@iconify/vue";
+import { ref } from "vue";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+
+const isOpen = ref(false);
 </script>
 
 <template>
@@ -28,9 +31,15 @@ import {
       Contact Us
     </button>
 
-    <DropdownMenu>
+    <DropdownMenu @update:open="isOpen = !isOpen">
       <DropdownMenuTrigger class="md:hidden">
-        <Icon icon="solar:hamburger-menu-broken" width="32" />
+        <Icon
+          :icon="
+            isOpen === false
+              ? 'solar:hamburger-menu-broken'
+              : 'radix-icons:cross-2'
+          "
+          width="32" />
       </DropdownMenuTrigger>
 
       <DropdownMenuContent class="bg-primary mr-5 py-5 px-2 text-white">

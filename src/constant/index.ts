@@ -23,24 +23,82 @@ export const services = [
     title: "UI/UX Design",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     imgUrl: "/uiux.png",
+    projects: [
+      {
+        name: "UI/UX",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+      {
+        name: "apaja",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+    ],
   },
   {
     value: "item2",
     title: "Digital Marketing",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     imgUrl: "/uiux.png",
+    projects: [
+      {
+        name: "Digital Marketing",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+    ],
   },
   {
     value: "item3",
     title: "Social Media Management",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     imgUrl: "/uiux.png",
+    projects: [
+      {
+        name: "apaja",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+      {
+        name: "Social Media Management",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+      {
+        name: "apaja",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+    ],
   },
   {
     value: "item4",
     title: "Development",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     imgUrl: "/uiux.png",
+    projects: [
+      {
+        name: "Development",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+      {
+        name: "apaja",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+      {
+        name: "apaja",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+      {
+        name: "apaja",
+        desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imgUrl: "/uiux.png",
+      },
+    ],
   },
 ];
 

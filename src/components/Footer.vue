@@ -11,8 +11,7 @@ import { menu } from "@/constant";
     <img
       src="/footer/circle2.svg"
       alt="ornament"
-      class="absolute bottom-0 right-0 max-md:w-1/2" />
-
+      class="absolute bottom-0 right-0 max-md:w-1/2 z-10" />
 
     <div
       class="flex max-md:flex-col max-md:gap-10 justify-between border-y border-y-gray-600 py-20">
@@ -29,7 +28,7 @@ import { menu } from "@/constant";
         <p>hello@agenone.com</p>
       </div>
 
-      <div class="flex flex-wrap gap-20">
+      <div class="flex flex-wrap gap-20 z-40">
         <ul class="space-y-3">
           <h5 class="text-white font-semibold">Menu</h5>
           <li v-for="(nav, i) in menu" :key="i">
